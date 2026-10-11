@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="atVXd7iiuSxQVqNVwP4N">
+    <mxGraphModel dx="986" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="690" pageHeight="980" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-1" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="342" width="460" x="785" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-2" parent="Xk0tp19hkQLlloJvUZbI-1" style="rounded=0;html=1;fillColor=#dae8fc;strokeColor=#4f6380;align=center;fontSize=18;" value="&lt;i&gt;Modulo&lt;/i&gt;" vertex="1">
+          <mxGeometry height="40" width="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-3" parent="Xk0tp19hkQLlloJvUZbI-1" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#4f6380;align=left;verticalAlign=top;spacing=9;fontSize=13;fontFamily=Courier New;whiteSpace=wrap;" value="-&amp;nbsp;id:&amp;nbsp;String&lt;br&gt;-&amp;nbsp;nombre:&amp;nbsp;String&lt;br&gt;-&amp;nbsp;salud:&amp;nbsp;int&lt;br&gt;-&amp;nbsp;activo:&amp;nbsp;boolean&lt;br&gt;-&amp;nbsp;costoConstruccion:&amp;nbsp;double" vertex="1">
+          <mxGeometry height="113" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-4" parent="Xk0tp19hkQLlloJvUZbI-1" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#4f6380;align=left;verticalAlign=top;spacing=9;fontSize=13;fontFamily=Courier New;whiteSpace=wrap;" value="#&amp;nbsp;Modulo(id:&amp;nbsp;String,&amp;nbsp;nombre:&amp;nbsp;String,&amp;nbsp;salud:&amp;nbsp;int,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;activo:&amp;nbsp;boolean,&amp;nbsp;costoConstruccion:&amp;nbsp;double)&lt;br&gt;&lt;i&gt;+&amp;nbsp;procesarCiclo(mision:&amp;nbsp;Mision):&amp;nbsp;String&lt;/i&gt;&lt;br&gt;+&amp;nbsp;getId():&amp;nbsp;String&lt;br&gt;+&amp;nbsp;getNombre():&amp;nbsp;String&lt;br&gt;+&amp;nbsp;getSalud():&amp;nbsp;int&lt;br&gt;+&amp;nbsp;isActivo():&amp;nbsp;boolean&lt;br&gt;+&amp;nbsp;getCostoConstruccion():&amp;nbsp;double&lt;br&gt;+&amp;nbsp;toString():&amp;nbsp;String" vertex="1">
+          <mxGeometry height="189" width="460" y="153" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-5" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="116" width="360" x="1350" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-6" parent="Xk0tp19hkQLlloJvUZbI-5" style="rounded=0;html=1;fillColor=#dae8fc;strokeColor=#4f6380;align=center;fontSize=18;" value="&lt;b&gt;Mision&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-7" parent="Xk0tp19hkQLlloJvUZbI-5" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#4f6380;align=left;verticalAlign=top;spacing=9;fontSize=13;fontFamily=Courier New;whiteSpace=wrap;" value="" vertex="1">
+          <mxGeometry height="38" width="360" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-8" parent="Xk0tp19hkQLlloJvUZbI-5" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#4f6380;align=left;verticalAlign=top;spacing=9;fontSize=13;fontFamily=Courier New;whiteSpace=wrap;" value="Recursos&amp;nbsp;compartidos&amp;nbsp;de&amp;nbsp;la&amp;nbsp;misión" vertex="1">
+          <mxGeometry height="38" width="360" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-9" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="266" width="460" x="290" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-10" parent="Xk0tp19hkQLlloJvUZbI-9" style="rounded=0;html=1;fillColor=#dae8fc;strokeColor=#4f6380;align=center;fontSize=18;" value="&lt;b&gt;ModuloEnergia&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-11" parent="Xk0tp19hkQLlloJvUZbI-9" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#4f6380;align=left;verticalAlign=top;spacing=9;fontSize=13;fontFamily=Courier New;whiteSpace=wrap;" value="-&amp;nbsp;energiaPorCiclo:&amp;nbsp;double&lt;br&gt;-&amp;nbsp;ciclosAcumulados:&amp;nbsp;int" vertex="1">
+          <mxGeometry height="56" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-12" parent="Xk0tp19hkQLlloJvUZbI-9" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#4f6380;align=left;verticalAlign=top;spacing=9;fontSize=13;fontFamily=Courier New;whiteSpace=wrap;" value="+&amp;nbsp;ModuloEnergia(id:&amp;nbsp;String,&amp;nbsp;nombre:&amp;nbsp;String,&amp;nbsp;salud:&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int,&amp;nbsp;activo:&amp;nbsp;boolean,&amp;nbsp;costoConstruccion:&amp;nbsp;double,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;energiaPorCiclo:&amp;nbsp;double,&amp;nbsp;ciclosAcumulados:&amp;nbsp;int)&lt;br&gt;+&amp;nbsp;procesarCiclo(mision:&amp;nbsp;Mision):&amp;nbsp;String&lt;br&gt;+&amp;nbsp;getEnergiaPorCiclo():&amp;nbsp;double&lt;br&gt;+&amp;nbsp;getCiclosAcumulados():&amp;nbsp;int&lt;br&gt;+&amp;nbsp;getTotalGenerado():&amp;nbsp;double&lt;br&gt;+&amp;nbsp;toString():&amp;nbsp;String" vertex="1">
+          <mxGeometry height="170" width="460" y="96" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-13" edge="1" parent="1" source="Xk0tp19hkQLlloJvUZbI-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#34495e;fontSize=14;endArrow=block;endFill=0;" target="Xk0tp19hkQLlloJvUZbI-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="630" />
+              <mxPoint x="1015" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-14" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="361" width="460" x="785" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-15" parent="Xk0tp19hkQLlloJvUZbI-14" style="rounded=0;html=1;fillColor=#dae8fc;strokeColor=#4f6380;align=center;fontSize=18;" value="&lt;b&gt;ModuloVuelo&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-16" parent="Xk0tp19hkQLlloJvUZbI-14" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#4f6380;align=left;verticalAlign=top;spacing=9;fontSize=13;fontFamily=Courier New;whiteSpace=wrap;" value="-&amp;nbsp;tipoInstrumento:&amp;nbsp;String&lt;br&gt;-&amp;nbsp;datosPorCiclo:&amp;nbsp;double&lt;br&gt;-&amp;nbsp;consumoEnergia:&amp;nbsp;double&lt;br&gt;-&amp;nbsp;ciclosAcumulados:&amp;nbsp;int" vertex="1">
+          <mxGeometry height="94" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-17" parent="Xk0tp19hkQLlloJvUZbI-14" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#4f6380;align=left;verticalAlign=top;spacing=9;fontSize=13;fontFamily=Courier New;whiteSpace=wrap;" value="+&amp;nbsp;ModuloVuelo(id:&amp;nbsp;String,&amp;nbsp;nombre:&amp;nbsp;String,&amp;nbsp;salud:&amp;nbsp;int,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;activo:&amp;nbsp;boolean,&amp;nbsp;costoConstruccion:&amp;nbsp;double,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;tipoInstrumento:&amp;nbsp;String,&amp;nbsp;datosPorCiclo:&amp;nbsp;double,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;consumoEnergia:&amp;nbsp;double,&amp;nbsp;ciclosAcumulados:&amp;nbsp;int)&lt;br&gt;+&amp;nbsp;procesarCiclo(mision:&amp;nbsp;Mision):&amp;nbsp;String&lt;br&gt;+&amp;nbsp;getTipoInstrumento():&amp;nbsp;String&lt;br&gt;+&amp;nbsp;getDatosPorCiclo():&amp;nbsp;double&lt;br&gt;+&amp;nbsp;getConsumoEnergia():&amp;nbsp;double&lt;br&gt;+&amp;nbsp;getCiclosAcumulados():&amp;nbsp;int&lt;br&gt;+&amp;nbsp;getTotalRecolectado():&amp;nbsp;double&lt;br&gt;+&amp;nbsp;toString():&amp;nbsp;String" vertex="1">
+          <mxGeometry height="227" width="460" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-18" edge="1" parent="1" source="Xk0tp19hkQLlloJvUZbI-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#34495e;fontSize=14;endArrow=block;endFill=0;" target="Xk0tp19hkQLlloJvUZbI-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1015" y="630" />
+              <mxPoint x="1015" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-19" parent="1" style="group;" value="" vertex="1">
+          <mxGeometry height="342" width="460" x="1280" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-20" parent="Xk0tp19hkQLlloJvUZbI-19" style="rounded=0;html=1;fillColor=#dae8fc;strokeColor=#4f6380;align=center;fontSize=18;" value="&lt;b&gt;ModuloTierra&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="460" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-21" parent="Xk0tp19hkQLlloJvUZbI-19" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#4f6380;align=left;verticalAlign=top;spacing=9;fontSize=13;fontFamily=Courier New;whiteSpace=wrap;" value="-&amp;nbsp;estacion:&amp;nbsp;String&lt;br&gt;-&amp;nbsp;capacidadDescarga:&amp;nbsp;double&lt;br&gt;-&amp;nbsp;energiaDescarga:&amp;nbsp;double&lt;br&gt;-&amp;nbsp;totalDescargado:&amp;nbsp;double" vertex="1">
+          <mxGeometry height="94" width="460" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-22" parent="Xk0tp19hkQLlloJvUZbI-19" style="rounded=0;html=1;fillColor=#ffffff;strokeColor=#4f6380;align=left;verticalAlign=top;spacing=9;fontSize=13;fontFamily=Courier New;whiteSpace=wrap;" value="+&amp;nbsp;ModuloTierra(id:&amp;nbsp;String,&amp;nbsp;nombre:&amp;nbsp;String,&amp;nbsp;salud:&amp;nbsp;int,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;activo:&amp;nbsp;boolean,&amp;nbsp;costoConstruccion:&amp;nbsp;double,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;estacion:&amp;nbsp;String,&amp;nbsp;capacidadDescarga:&amp;nbsp;double,&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;energiaDescarga:&amp;nbsp;double,&amp;nbsp;totalDescargado:&amp;nbsp;double)&lt;br&gt;+&amp;nbsp;procesarCiclo(mision:&amp;nbsp;Mision):&amp;nbsp;String&lt;br&gt;+&amp;nbsp;getEstacion():&amp;nbsp;String&lt;br&gt;+&amp;nbsp;getCapacidadDescarga():&amp;nbsp;double&lt;br&gt;+&amp;nbsp;getEnergiaDescarga():&amp;nbsp;double&lt;br&gt;+&amp;nbsp;getTotalDescargado():&amp;nbsp;double&lt;br&gt;+&amp;nbsp;toString():&amp;nbsp;String" vertex="1">
+          <mxGeometry height="208" width="460" y="134" as="geometry" />
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-23" edge="1" parent="1" source="Xk0tp19hkQLlloJvUZbI-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#34495e;fontSize=14;endArrow=block;endFill=0;" target="Xk0tp19hkQLlloJvUZbI-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1510" y="630" />
+              <mxPoint x="1015" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Xk0tp19hkQLlloJvUZbI-24" edge="1" parent="1" source="Xk0tp19hkQLlloJvUZbI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeColor=#34495e;fontSize=14;dashed=1;endArrow=open;endFill=0;" target="Xk0tp19hkQLlloJvUZbI-5" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
